@@ -1,0 +1,15 @@
+# Security: NEVER upload your API keys
+.streamlit/secrets.toml
+
+# Python: Ignore virtual environments
+venv/
+env/
+.env
+
+# Cache: Ignore temporary files that make your folder messy
+__pycache__/
+*.pyc
+
+# Operating System: Ignore system-specific junk
+.DS_Store
+Thumbs.db
