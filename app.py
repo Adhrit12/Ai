@@ -81,7 +81,7 @@ You are a professional medical assistant specializing in {specialty}.
 4. End every response with: 'Note: Educational tool only. Consult a physician.'
 """
 
-model = genai.GenerativeModel(model_name='gemini-1.5-flash', system_instruction=SYSTEM_PROMPT)
+model = genai.GenerativeModel(model_name='gemini-2.5-flash', system_instruction=SYSTEM_PROMPT)
 
 # --- 5. MAIN INTERFACE ---
 st.title(f"🩺 Med-Assist: {specialty} Mode")
